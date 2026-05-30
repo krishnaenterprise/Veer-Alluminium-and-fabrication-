@@ -6,9 +6,9 @@ export const site = {
   description:
     "Veer Aluminium & Fabrication delivers premium aluminium windows, UPVC, toughened glass, structural glazing, ACP cladding, steel fabrication and railings across Palanpur and Gujarat with precision engineering and modern design.",
   url: "https://veeraluminium.in",
-  phone: "+91 98250 00000",
-  phoneRaw: "919825000000",
-  whatsapp: "919825000000",
+  phone: "+91 97122 16273",
+  phoneRaw: "919712216273",
+  whatsapp: "919712216273",
   email: "info@veeraluminium.in",
   address: {
     line: "Near Railway Overbridge, Ruppura",
