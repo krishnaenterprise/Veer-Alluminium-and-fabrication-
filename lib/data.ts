@@ -20,7 +20,7 @@ export const services: Service[] = [
     description:
       "Precision-engineered aluminium windows with powder-coated finishes, multi-point locking and superior thermal performance for homes and commercial towers.",
     image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-aluminium-windows.svg",
     icon: "AppWindow",
     features: ["Powder coated frames", "Multi-point locking", "Weather sealed", "10 year frame warranty"],
   },
@@ -31,7 +31,7 @@ export const services: Service[] = [
     description:
       "Robust aluminium doors engineered for smooth operation, security and architectural elegance — available in hinged, sliding and folding configurations.",
     image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-aluminium-doors.svg",
     icon: "DoorOpen",
     features: ["Heavy-duty hardware", "Slim sightlines", "Custom finishes", "Sound insulation"],
   },
@@ -42,7 +42,7 @@ export const services: Service[] = [
     description:
       "2, 3 and 4-track sliding windows with stainless rollers and mosquito mesh options for uninterrupted views and ventilation.",
     image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-sliding-windows.svg",
     icon: "MoveHorizontal",
     features: ["Smooth SS rollers", "Mosquito mesh ready", "Slim profiles", "Easy maintenance"],
   },
@@ -53,7 +53,7 @@ export const services: Service[] = [
     description:
       "German-profile UPVC windows offering excellent thermal & acoustic insulation, corrosion resistance and lasting performance in Gujarat's climate.",
     image:
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-upvc-windows.svg",
     icon: "Frame",
     features: ["Thermal insulation", "Acoustic comfort", "Corrosion-free", "UV resistant"],
   },
@@ -64,7 +64,7 @@ export const services: Service[] = [
     description:
       "Heat-treated toughened glass for railings, partitions, facades and shopfronts — safe, scratch resistant and crystal clear.",
     image:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-toughened-glass.svg",
     icon: "Layers",
     features: ["Safety certified", "Heat treated", "Custom thickness", "Edge polished"],
   },
@@ -75,7 +75,7 @@ export const services: Service[] = [
     description:
       "Spider and unitised structural glazing that creates striking frameless glass facades for corporate and commercial architecture.",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-structural-glazing.svg",
     icon: "Building2",
     features: ["Frameless facades", "Spider fittings", "Weatherproof seals", "Engineered design"],
   },
@@ -86,7 +86,7 @@ export const services: Service[] = [
     description:
       "Aluminium composite panel cladding for facades and signage in a wide range of finishes — fire-rated and weather-resistant options available.",
     image:
-      "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-acp-cladding.svg",
     icon: "PanelsTopLeft",
     features: ["Fire-rated panels", "100+ finishes", "Lightweight", "Weatherproof"],
   },
@@ -97,7 +97,7 @@ export const services: Service[] = [
     description:
       "Structural and decorative steel fabrication — gates, sheds, staircases and load-bearing structures built to precise specification.",
     image:
-      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-steel-fabrication.svg",
     icon: "Hammer",
     features: ["MS & SS work", "Welded to spec", "Anti-rust coating", "On-site install"],
   },
@@ -108,7 +108,7 @@ export const services: Service[] = [
     description:
       "Designer balcony and staircase railings combining toughened glass with stainless steel for safety and contemporary style.",
     image:
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-railings-balconies.svg",
     icon: "Fence",
     features: ["Glass + SS railings", "Designer profiles", "Safety compliant", "Rust-free"],
   },
@@ -119,7 +119,7 @@ export const services: Service[] = [
     description:
       "Plaster of Paris false ceilings, cornices and decorative detailing that complete a premium interior finish.",
     image:
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-pop-work.svg",
     icon: "PaintRoller",
     features: ["False ceilings", "Cornice design", "Smooth finish", "Lighting coves"],
   },
@@ -130,7 +130,7 @@ export const services: Service[] = [
     description:
       "Complete commercial glass packages — automatic doors, frameless shopfronts and office partition systems delivered turnkey.",
     image:
-      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-commercial-glass.svg",
     icon: "Store",
     features: ["Automatic doors", "Office partitions", "Frameless fronts", "Turnkey delivery"],
   },
@@ -141,7 +141,7 @@ export const services: Service[] = [
     description:
       "Premium residential glass — shower enclosures, designer mirrors, glass doors and balcony glazing tailored to your home.",
     image:
-      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80",
+      "/images/service-residential-glass.svg",
     icon: "Home",
     features: ["Shower cubicles", "Designer mirrors", "Balcony glazing", "Custom sizing"],
   },
@@ -157,15 +157,15 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  { id: "p1", title: "Skyline Corporate Tower", category: "Commercial", location: "Palanpur", description: "Unitised structural glazing facade spanning 8 floors.", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80" },
-  { id: "p2", title: "The Veer Residency", category: "Residential", location: "Palanpur", description: "Full aluminium window & sliding door package for a luxury villa.", image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" },
-  { id: "p3", title: "Glass Atrium Showroom", category: "Glass Projects", location: "Deesa", description: "Frameless toughened glass shopfront and atrium.", image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1000&q=80" },
-  { id: "p4", title: "Sterling Industrial Shed", category: "Industrial", location: "Mehsana", description: "Heavy steel fabrication and ACP office block.", image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80" },
-  { id: "p5", title: "Sky Glass Balconies", category: "Railings", location: "Palanpur", description: "Frameless glass balcony railings with SS handrail.", image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1000&q=80" },
-  { id: "p6", title: "Prism ACP Facade", category: "ACP Work", location: "Ahmedabad", description: "Multi-tone ACP cladding facade with concealed lighting.", image: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1000&q=80" },
-  { id: "p7", title: "Lakeview Apartments", category: "Residential", location: "Palanpur", description: "UPVC windows across 64 apartment units.", image: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1000&q=80" },
-  { id: "p8", title: "Metro Retail Plaza", category: "Commercial", location: "Palanpur", description: "Spider glazing shopfronts and automatic glass doors.", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80" },
-  { id: "p9", title: "Heritage Glass Partition", category: "Glass Projects", location: "Palanpur", description: "Office partition system in toughened glass.", image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80" },
+  { id: "p1", title: "Skyline Corporate Tower", category: "Commercial", location: "Palanpur", description: "Unitised structural glazing facade spanning 8 floors.", image: "/images/project-p1.svg" },
+  { id: "p2", title: "The Veer Residency", category: "Residential", location: "Palanpur", description: "Full aluminium window & sliding door package for a luxury villa.", image: "/images/project-p2.svg" },
+  { id: "p3", title: "Glass Atrium Showroom", category: "Glass Projects", location: "Deesa", description: "Frameless toughened glass shopfront and atrium.", image: "/images/project-p3.svg" },
+  { id: "p4", title: "Sterling Industrial Shed", category: "Industrial", location: "Mehsana", description: "Heavy steel fabrication and ACP office block.", image: "/images/project-p4.svg" },
+  { id: "p5", title: "Sky Glass Balconies", category: "Railings", location: "Palanpur", description: "Frameless glass balcony railings with SS handrail.", image: "/images/project-p5.svg" },
+  { id: "p6", title: "Prism ACP Facade", category: "ACP Work", location: "Ahmedabad", description: "Multi-tone ACP cladding facade with concealed lighting.", image: "/images/project-p6.svg" },
+  { id: "p7", title: "Lakeview Apartments", category: "Residential", location: "Palanpur", description: "UPVC windows across 64 apartment units.", image: "/images/project-p7.svg" },
+  { id: "p8", title: "Metro Retail Plaza", category: "Commercial", location: "Palanpur", description: "Spider glazing shopfronts and automatic glass doors.", image: "/images/project-p8.svg" },
+  { id: "p9", title: "Heritage Glass Partition", category: "Glass Projects", location: "Palanpur", description: "Office partition system in toughened glass.", image: "/images/project-p9.svg" },
 ];
 
 export const projectCategories = [

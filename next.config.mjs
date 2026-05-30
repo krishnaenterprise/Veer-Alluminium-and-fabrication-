@@ -2,12 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  images: {
-    remotePatterns: [
-      { protocol: "https", hostname: "images.unsplash.com" },
-      { protocol: "https", hostname: "plus.unsplash.com" },
-    ],
-  },
+  // All imagery is self-hosted under /public/images (SVG facades) — no remote
+  // image hosts required, which keeps the site fast and free of broken images.
 };
 
 export default nextConfig;

@@ -17,7 +17,7 @@ export function AboutPreview() {
           <div className="relative overflow-hidden rounded-[2rem] shadow-luxe">
             <div
               className="h-[460px] w-full bg-cover bg-center"
-              style={{ backgroundImage: "url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80')" }}
+              style={{ backgroundImage: "url('/images/about-1.svg')" }}
             />
           </div>
           <div className="absolute -bottom-8 -right-4 w-48 rounded-3xl bg-gold-gradient p-6 text-brand-950 shadow-luxe-gold sm:-right-8">

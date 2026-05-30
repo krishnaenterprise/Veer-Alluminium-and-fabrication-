@@ -18,10 +18,7 @@ export function Hero() {
       <motion.div style={{ y, scale }} className="absolute inset-0">
         <div
           className="h-full w-full animate-slow-zoom bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=80')",
-          }}
+          style={{ backgroundImage: "url('/images/hero.svg')" }}
         />
       </motion.div>
 

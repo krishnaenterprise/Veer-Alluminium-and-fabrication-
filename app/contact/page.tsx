@@ -20,7 +20,7 @@ export default function ContactPage() {
         eyebrow="Get In Touch"
         title={<>Let’s Build Something <span className="text-gold-gradient">Exceptional</span></>}
         subtitle="Reach out for a free consultation, site visit or instant quotation. We’re here to help."
-        image="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=2000&q=80"
+        image="/images/contact-hero.svg"
       />
 
       <section className="py-16 sm:py-24">

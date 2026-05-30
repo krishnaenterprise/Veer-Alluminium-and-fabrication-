@@ -15,7 +15,7 @@ export default function EstimatePage() {
         eyebrow="Smart Quotation Engine"
         title={<>Instant <span className="text-gold-gradient">Estimate Calculator</span></>}
         subtitle="Configure your product, see transparent pricing in real time, and download a professional PDF quotation — completely free."
-        image="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=2000&q=80"
+        image="/images/estimate-hero.svg"
       />
       <section className="py-16 sm:py-20">
         <div className="container-tight">
