@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 250 250 251;
+  --fg: 11 31 58;
+}
+
+.dark {
+  --bg: 6 18 31;
+  --fg: 230 236 245;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: rgb(var(--bg));
+    color: rgb(var(--fg));
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: #c8a04f;
+    color: #06121f;
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply mx-auto w-full max-w-[1320px] px-6;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-gold;
+  }
+  .heading-display {
+    @apply font-display font-semibold leading-[1.05] tracking-tight;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold transition-all duration-300 will-change-transform;
+  }
+  .btn-gold {
+    @apply btn bg-gold-gradient text-brand-950 shadow-luxe-gold hover:-translate-y-0.5 hover:shadow-[0_25px_55px_-12px_rgba(200,160,79,0.6)];
+  }
+  .btn-outline {
+    @apply btn border border-white/30 bg-white/5 text-white backdrop-blur hover:bg-white/15;
+  }
+  .btn-dark {
+    @apply btn bg-brand-950 text-white hover:-translate-y-0.5 hover:bg-brand-900 dark:bg-white dark:text-brand-950;
+  }
+  .glass-card {
+    @apply rounded-3xl border border-white/15 bg-white/10 backdrop-blur-xl;
+  }
+  .card-surface {
+    @apply rounded-3xl border border-black/5 bg-white shadow-[0_10px_40px_-20px_rgba(11,31,58,0.35)] dark:border-white/10 dark:bg-white/[0.04];
+  }
+  .input-field {
+    @apply w-full rounded-xl border border-black/10 bg-white px-4 py-3 text-sm text-brand-950 outline-none transition focus:border-gold focus:ring-2 focus:ring-gold/30 dark:border-white/15 dark:bg-white/5 dark:text-white;
+  }
+  .label-field {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wider text-steel-dark dark:text-steel-light;
+  }
+}
+
+/* Premium gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #e4c77e 0%, #c8a04f 50%, #9a7a33 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Shimmering skeleton / sheen */
+.sheen {
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.25) 45%,
+    transparent 60%
+  );
+}
+
+/* Hide scrollbar for horizontal carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Reduced motion respect */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
