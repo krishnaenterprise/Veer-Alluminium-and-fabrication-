@@ -4,7 +4,7 @@ export function PageHero({
   eyebrow,
   title,
   subtitle,
-  image = "/images/projects-hero.svg",
+  image = "/images/photo-home-4.jpg",
 }: {
   eyebrow: string;
   title: React.ReactNode;

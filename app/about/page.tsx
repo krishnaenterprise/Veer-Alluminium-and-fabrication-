@@ -19,7 +19,7 @@ export default function AboutPage() {
         eyebrow="Our Story"
         title={<>Built on <span className="text-gold-gradient">Precision & Trust</span></>}
         subtitle="From a specialised Palanpur workshop to a regional leader in aluminium, glass and fabrication."
-        image="/images/about-hero.svg"
+        image="/images/photo-facade-3.png"
       />
 
       <section className="py-20 sm:py-28">
@@ -40,7 +40,7 @@ export default function AboutPage() {
             </p>
           </Reveal>
           <Reveal delay={0.1} className="overflow-hidden rounded-[2rem] shadow-luxe">
-            <div className="h-[440px] w-full bg-cover bg-center" style={{ backgroundImage: "url('/images/about-2.svg')" }} />
+            <div className="h-[440px] w-full bg-cover bg-center" style={{ backgroundImage: "url('/images/photo-home-1.jpg')" }} />
           </Reveal>
         </div>
       </section>

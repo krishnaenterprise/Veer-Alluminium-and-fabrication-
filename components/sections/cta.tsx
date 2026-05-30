@@ -12,7 +12,7 @@ export function CTA() {
             <div className="pointer-events-none absolute inset-0 opacity-40 [background:radial-gradient(circle_at_30%_20%,rgba(200,160,79,0.35),transparent_50%),radial-gradient(circle_at_75%_80%,rgba(138,151,168,0.3),transparent_50%)]" />
             <div
               className="pointer-events-none absolute inset-0 opacity-10 bg-cover bg-center"
-              style={{ backgroundImage: "url('/images/cta.svg')" }}
+              style={{ backgroundImage: "url('/images/photo-home-3.jpg')" }}
             />
             <div className="relative mx-auto max-w-2xl">
               <span className="eyebrow">Start Your Project</span>

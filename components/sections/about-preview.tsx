@@ -17,7 +17,7 @@ export function AboutPreview() {
           <div className="relative overflow-hidden rounded-[2rem] shadow-luxe">
             <div
               className="h-[460px] w-full bg-cover bg-center"
-              style={{ backgroundImage: "url('/images/about-1.svg')" }}
+              style={{ backgroundImage: "url('/images/photo-team-1.png')" }}
             />
           </div>
           <div className="absolute -bottom-8 -right-4 w-48 rounded-3xl bg-gold-gradient p-6 text-brand-950 shadow-luxe-gold sm:-right-8">
